@@ -1,0 +1,297 @@
+body {
+  background-color: aliceblue;
+}
+
+.NavigationBar {
+
+  border-radius: 12px;
+  width: 60%;
+  display: flex;
+  background-color: aqua;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.clan {
+  font-weight: bold;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.clasOnHover {
+  font-weight: bold;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  background-color: rgb(244, 221, 43);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Menu {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+
+
+}
+
+.dropdown-content-click {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  background-color: #f1f1f1;
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: aqua;
+  width:200px;
+}
+
+#divzaClick {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.Tijelo {
+  
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.MatForm {
+
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.formule-i-inputi {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.Slike-formula {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  align-items: center;
+  position: relative;
+}
+
+#promena1 {
+  padding: 5px;
+  background-color: rgb(33, 239, 239);
+  border-color: red;
+  font-weight: bold;
+}
+
+#promena2 {
+  padding: 5px;
+  background-color: rgb(36, 224, 224);
+  border-color: red;
+  font-weight: bold;
+}
+
+.Usluga {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  right: 0;
+}
+
+
+/* ispod su divovi za kontakt */
+
+.Tijelo-Kontakt {
+  background-image: url('istockphoto-871208872-612x612.jpg');
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+  flex-wrap: wrap;
+
+
+}
+
+.DivKontakt {
+
+  display: row;
+  flex-direction: column;
+  width: 50%;
+
+
+}
+
+.LabelStyle {
+
+  font-size: 20px;
+
+}
+
+.InputText {
+  height: 25px;
+  width: 300px;
+}
+
+.CommentText {
+  height: 200px;
+  width: 300px;
+
+
+}
+
+.email-picture {
+  width: 40%;
+
+}
+
+#kontakt1 {
+  background-color: beige;
+  border-color: aqua;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+#kontakt2 {
+  background-color: beige;
+  border-color: aqua;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.Poslato {
+
+  display: none;
+
+}
+
+
+.PoslatoD {
+  width: 40%;
+  background-color: rgb(165, 165, 234);
+  margin-top: 100px;
+  display: inline;
+  font-weight:bold;
+
+}
+
+#paragraf4{
+  overflow-wrap: break-word;
+}
+
+
+
+
+/* ispod su divovi za katalog */
+
+.Tijelo-katalog {
+  background-image: url('istockphoto-871208872-612x612.jpg');
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+
+.katalog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.Katalog-clan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  align-items: center;
+  background-color: beige;
+  border-style: solid;
+  border-color: blue;
+  margin-top: 20px;
+}
+
+.description{
+  overflow-wrap: break-word;
+}
+
+.naziv{
+  font-weight: bold;
+  font-size: 22px;
+  font-family:Georgia;
+}
+
+.id{
+  font-weight: bold;
+  font-size: 17px;
+  font-family:Georgia;
+}
+
+.Katalog-button{
+  font-weight: bold;
+  font-size: 18px;
+  color:blueviolet;
+}
+
+.DodajKatalog{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: aqua;
+  margin-top: 20px; 
+  align-items: center;
+
+}
+
+.Katalog-clan-hide{
+
+  display:none;
+}
+
+#posalji1{
+
+  font-size: 18px;
+}
+.UkloniKatalog{
+
+  width: 100%;
+  background-color: aqua;
+}
+
+#Delete{
+
+  font-size: 16px;
+}
