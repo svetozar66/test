@@ -29,7 +29,7 @@ function getAnswer(){
     
         body: JSON.stringify({
             'model': 'text-davinci-003',
-            'prompt': `${query}`,
+            'prompt': `capital of germany`,
             'max_tokens': 300
         })
     }).then(response => response.json()).then(data => 
