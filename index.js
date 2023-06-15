@@ -24,16 +24,16 @@ function getAnswer(){
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer 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`
+            'Authorization': `Bearer ${apikey}`
         },
     
         body: JSON.stringify({
             'model': 'text-davinci-003',
-            'prompt': `capital of germany`,
+            'prompt': `${query}`,
             'max_tokens': 300
         })
     }).then(response => response.json()).then(data => 
-      console.log(response)
+     
         document.getElementById('par').innerHTML=data.choices[0].text
         )
 }
