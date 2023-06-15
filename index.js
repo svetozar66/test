@@ -33,7 +33,7 @@ function getAnswer(){
             'max_tokens': 300
         })
     }).then(response => response.json()).then(data => 
-      
+      console.log(response)
         document.getElementById('par').innerHTML=data.choices[0].text
         )
 }
