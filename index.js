@@ -24,7 +24,7 @@ function getAnswer(){
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apikey}`
+            'Authorization': `Bearer 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`
         },
     
         body: JSON.stringify({
